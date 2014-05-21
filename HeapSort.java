@@ -1,6 +1,6 @@
 public class HeapSort{
     
-    public Integer[] Heapify(Integer[datz]){
+    public Integer[] Heapify(Integer[] data){
 
 	int temp=0, tempPos=0;
 	boolean reached=false;
@@ -24,6 +24,7 @@ public class HeapSort{
 		
 	    }
 	}
+	return data;
     }
     
 
@@ -31,9 +32,11 @@ public class HeapSort{
 	Integer temp= array[x];
 	array[x]= array[y];
 	array[y]= temp;
+	return array;
     }
 
     public static void main (String[]args){
+
     }
 
 }
